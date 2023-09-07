@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="https://image.pngaaa.com/391/3783391-middle.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <title>Pasko Nanaman Hay!</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/281444864_1070941596964755_4360011036372791026_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFRjNW4j-fzHKq-Was6Xwuqw_CYT45clKnD8JhPjlyUqe7Kejts53xlgdNEkGxowxi0C-yGWZx7M31Urp2qvD56&_nc_ohc=AxjCDEx3Z3UAX8VXQVe&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfD_klS7J4-8-al4tzUy_dIWNmnw_Ln94gHHGAQZEdm78Q&oe=64F79FD9"
+                        alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item nav-item-css">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i
+                                    class="fa-solid fa-gift"></i>
+                                Mark Jay S. Albao</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+   
+    <div class="text-center container-fluid">
+        <div class="mt-5"><i class="fa-solid fa-star"></i>
+        </div>
+        <div id="tree_star">
+        </div>
+        <div style="font-size: 25pt;"> <i class="fa-solid fa-gift"></i> <i class="fa-solid fa-gift"></i> <i
+                class="fa-solid fa-gift"></i>
+        </div>
+        <div style="font-size: 25pt;"> <i class="fa-solid fa-gift"></i> <i class="fa-solid fa-gift"></i> <i
+                class="fa-solid fa-gift"></i> <i class="fa-solid fa-gift"></i>
+        </div>
+        <div style="font-size: 25pt;"><i class="fa-solid fa-gift"></i> <i class="fa-solid fa-gift"></i> <i
+                class="fa-solid fa-gift"></i> <i class="fa-solid fa-gift"></i> <i class="fa-solid fa-gift"></i> <i
+                class="fa-solid fa-gift"></i> </div>
+        <br>
+        <p id="rgb_code"></p>
+        <button class="btn border text-dark bg-light" onclick="on(); playSound();">Start</button>
+        <button class="btn border text-dark bg-light" onclick="off(); pauseSound();">Stop</button>
+        <br><br>
+    </div>
+    <!-- footer -->
+    <div>
+        <footer class="container-fluid">
+            <div class="footer-wrap">
+                <div class="container first_class">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <h3>BE THE FIRST TO KNOW</h3>
+                            <p>Get all the latest information on WD83P.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <form class="newsletter">
+                                <input type="text" placeholder="Email Address">
+                            </form>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="col-md-12">
+                                <div class="standard_social_links">
+                                    <div>
+                                        <li class="round-btn btn-facebook"><a href="https://www.facebook.com/"><i
+                                                    class="fab fa-facebook-f"></i></a>
+
+                                        </li>
+
+                                        <li class="round-btn btn-twitter"><a href="https://twitter.com/"><i
+                                                    class="fab fa-twitter" aria-hidden="true"></i></a>
+
+                                        </li>
+                                        <li class="round-btn btn-instagram"><a href="https://www.instagram.com/"><i
+                                                    class="fab fa-instagram" aria-hidden="true"></i></a>
+
+                                        </li>
+                                        <li class="round-btn btn-envelop"><a href="https://mail.google.com/"><i
+                                                    class="fa fa-envelope" aria-hidden="true"></i></a>
+
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-md-12">
+                                <h3 style="text-align: center;">Stay Connected</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second_class">
+                    <div class="container second_class_bdr">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="footer-logo"><img
+                                        src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/281444864_1070941596964755_4360011036372791026_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFRjNW4j-fzHKq-Was6Xwuqw_CYT45clKnD8JhPjlyUqe7Kejts53xlgdNEkGxowxi0C-yGWZx7M31Urp2qvD56&_nc_ohc=AxjCDEx3Z3UAX8VXQVe&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfD_klS7J4-8-al4tzUy_dIWNmnw_Ln94gHHGAQZEdm78Q&oe=64F79FD9"
+                                        height="70px" width="70px" alt="logo">
+                                </div>
+                                <p>Christmas tree</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <h3>Contact and Email</h3>
+                            <ul class="footer-links">
+                                <li class="text-light">872-223-6789 | 872-345-6784
+                                </li>
+                                <li class="text-light">Email : abcdjkl@hotmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    </footer>
+    <div class="copyright">
+        Copyright 2023 | All Rights Reserved by WD83P kodego.
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
